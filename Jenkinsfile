@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/<your-username>/carwebsite.git'
+                git 'https://github.com/ruwaisaafsal/CAR-WEBSITE.git'
             }
         }
 
